@@ -1,5 +1,7 @@
 /* style.css */
 
+/* ... Existing styles ... */
+
 /* Body and general styles */
 body {
   font-family: "Luzern", Arial, sans-serif;
@@ -70,5 +72,42 @@ button:focus {
   outline: none;
 }
 
-/* Additional styles */
-/* Add any additional styles you need here */
+/* Layout styles */
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  flex-grow: 1;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.column {
+  flex: 1;
+  overflow-y: auto;
+}
+
+.column section {
+  margin-bottom: 20px;
+}
+
+#preview {
+  width: 50%;
+  max-width: 600px;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: rgb(217, 217, 217);
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  color: rgb(217, 217, 217);
+}
+
+/* ... Additional styles ... */
