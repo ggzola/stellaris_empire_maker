@@ -1,0 +1,74 @@
+/* style.css */
+
+/* Body and general styles */
+body {
+  font-family: "Luzern", Arial, sans-serif;
+  font-weight: thin;
+  font-size: 14px;
+  color: rgb(217, 217, 217);
+  background: linear-gradient(rgb(26, 29, 26), rgb(45, 82, 64));
+  margin: 0;
+}
+
+/* Header styles */
+header {
+  color: rgb(135, 255, 207);
+}
+
+/* Section styles */
+section {
+  margin-top: 20px;
+}
+
+section h2 {
+  color: rgb(135, 255, 207);
+}
+
+section p {
+  color: rgb(217, 217, 217);
+}
+
+section.incompatible p {
+  color: rgb(214, 73, 60);
+}
+
+section.box {
+  background-color: rgb(29, 41, 37);
+  border: 2px solid rgb(45, 87, 76);
+  padding: 10px;
+}
+
+section.box.selected {
+  border-color: rgb(255, 153, 79);
+  background-color: hsl(35, 100%, 45%); /* Example hue adjustment */
+}
+
+/* Toolbar styles */
+nav.toolbar {
+  background-color: rgb(29, 41, 37);
+  padding: 10px;
+}
+
+/* Button styles */
+button {
+  font-family: Arial, sans-serif;
+  font-weight: thin;
+  font-size: 14px;
+  color: rgb(217, 217, 217);
+  background-color: rgb(45, 87, 76);
+  border: none;
+  padding: 8px 16px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(75, 117, 106);
+}
+
+button:focus {
+  outline: none;
+}
+
+/* Additional styles */
+/* Add any additional styles you need here */
